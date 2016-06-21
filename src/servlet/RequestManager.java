@@ -47,7 +47,7 @@ public class RequestManager extends HttpServlet {
 				if(id == -1){
 					pw.write("save failed");
 				}else{
-					pw.write(id);
+					pw.write(id + "");
 				}
 			} catch (Exception e) {
 				e.printStackTrace();
